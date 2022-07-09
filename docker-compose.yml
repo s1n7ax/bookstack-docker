@@ -29,7 +29,6 @@ services:
     - MYSQL_PASSWORD=bookstack
     volumes:
     - bookstack-db:/var/lib/mysql
-    - ~/backup:/mnt
     restart: unless-stopped
 
 volumes:
